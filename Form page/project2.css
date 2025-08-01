@@ -1,0 +1,37 @@
+/* Form Container */
+body{
+  background-color: #222831;
+}
+
+form {
+    margin-left: 38%;
+    margin-top: 7%;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #393E46;
+    text-align: center;
+  }
+  
+  /* Input Fields */
+  input[type="text"], select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    border: 1px solid #948979;
+    border-radius: 5px;
+  }
+  
+  /* Submit Button */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #948979;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
